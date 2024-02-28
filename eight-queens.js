@@ -39,7 +39,6 @@ function solveNQueens(queenNumber) {
     // All queens are placed safely
     if (row === queenNumber) {
       solutions.push(printQueens(colPosQueens));
-      // solutions.push([...colPosQueens])
       return;
     }
 
